@@ -1,17 +1,17 @@
 // Solusi 1 --> Langsung pake fungsi bawaan
-class Solution {
-    public boolean isPalindrome(int x) {
-        if (x < 0) return false;
+// class Solution {
+//     public boolean isPalindrome(int x) {
+//         if (x < 0) return false;
 
-        String forward = String.valueOf(x);
-        String backward = new StringBuilder(forward).reverse().toString();
+//         String forward = String.valueOf(x);
+//         String backward = new StringBuilder(forward).reverse().toString();
 
-        System.out.println(forward);
-        System.out.println(backward);
-        System.out.println(forward.equals(backward));
-        return forward.equals(backward);
-    }
-}
+//         System.out.println(forward);
+//         System.out.println(backward);
+//         System.out.println(forward.equals(backward));
+//         return forward.equals(backward);
+//     }
+// }
 
 // Solusi 2 --> Build reversnya pake math
 class Solution {
